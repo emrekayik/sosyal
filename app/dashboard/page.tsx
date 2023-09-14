@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">sosyal</a>
+          <Link href="/" className="btn btn-ghost normal-case text-xl">sosyal</Link>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
@@ -24,15 +24,9 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content text-center">
-          <div className="max-w-md">
-            <h1 className="text-5xl font-bold">sosyal</h1>
-            <p className="py-6">Sosyal medya kanallarınızı tek yerden paylaşın.</p>
-            <Link className="btn btn-primary" href="/dashboard">Panel'e git</Link>
-          </div>
-        </div>
-      </div>
+    <div>
+        dashboard
+    </div>
     </div>
   )
 }
