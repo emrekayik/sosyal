@@ -1,8 +1,10 @@
 import Link from 'next/link'
+import Navbar from './components/Navbar'
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content text-center">
           <div className="max-w-md">
