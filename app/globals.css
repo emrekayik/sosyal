@@ -5,3 +5,19 @@
 .btn-test {
   @apply bg-pink-500 rounded-full;
 }
+
+*::-webkit-scrollbar {
+  @apply w-2; /* Scrollbar genişliği */
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-full; /* Scrollbar thumb rengi */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600; /* Scrollbar thumb rengi */
+}
+
+.supabase-auth-ui_ui-button {
+  @apply w-full;
+}
